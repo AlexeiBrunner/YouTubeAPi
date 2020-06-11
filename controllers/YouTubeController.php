@@ -10,7 +10,7 @@
 
     class YouTubeController
     {
-        const VIDEOS = ['RhMYBfF7-hE', '8o7YOiYcNbU'];
+        const VIDEOS = ['RhMYBfF7-hE', '8o7YOiYcNbU', '9lO06Zxhu88', 'DAwEA5QF3vQ', 'H85keSA-7QM'];
 
         private $youtube;
 
