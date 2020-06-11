@@ -1,0 +1,47 @@
+.theme {
+    font-size:        18px;
+    text-align:       center;
+    border-bottom:    1px solid #ccc;
+    padding:          10px 0px;
+    margin-bottom:    10px;
+    font-weight:      bold;
+    background-color: #ffffff;
+    }
+
+.panel.panel--styled {
+    background: #f4f2f3;
+    }
+.panel.panel--styled .meta {
+    color: #999;
+    }
+
+.panel.panel--styled .meta a {
+    color: #777;
+    }
+.panelTop {
+    padding: 30px;
+    }
+
+.panelBottom {
+    border-top:  1px solid #e7e7e7;
+    padding-top: 20px;
+    }
+
+.panelBottom i.glyphicon { display: inline; font-size: 1.125em; }
+
+.panelBottom i.glyphicon-thumbs-up { color: #1abc9c; }
+
+.panelBottom i.glyphicon-thumbs-down { color: #e74c3c; padding-left: 5px; }
+
+.panelBottom .mark {
+    display:          inline;
+    font:             300 normal 1.125em "Roboto", Arial, Verdana, sans-serif;
+    color:            #606060;
+    text-align:       center;
+    background-color: transparent !important;
+    border:           none !important;
+    }
+
+.panelBottom :first-child {
+    padding-bottom: 10px;
+    }
