@@ -4,66 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "475e6ae79c7edc243eeb01b0475f6453",
+    "content-hash": "02b1da3f4af0c63ced960b26d9a40c67",
     "packages": [
-        {
-            "name": "2amigos/yii2-chartjs-widget",
-            "version": "2.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/2amigos/yii2-chartjs-widget.git",
-                "reference": "b144a4ebd923872a7263c980f8afe2e212378275"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/2amigos/yii2-chartjs-widget/zipball/b144a4ebd923872a7263c980f8afe2e212378275",
-                "reference": "b144a4ebd923872a7263c980f8afe2e212378275",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/chartjs": "~2.6",
-                "yiisoft/yii2": "~2.0.5"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.0",
-                "phpunit/phpunit": "~4.4"
-            },
-            "type": "yii2-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "dosamigos\\chartjs\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "2amigOS! Consulting Group",
-                    "email": "hola@2amigos.us",
-                    "homepage": "http://2amigos.us",
-                    "role": "Developer"
-                }
-            ],
-            "description": "ChartJs widget for Yii2.",
-            "homepage": "http://yiiwheels.com/extension/chartjs-widget",
-            "keywords": [
-                "2amigos",
-                "chartjs",
-                "extension",
-                "widget",
-                "yii",
-                "yii 2",
-                "yii2"
-            ],
-            "time": "2018-05-02T17:59:16+00:00"
-        },
         {
             "name": "bower-asset/bootstrap",
             "version": "v3.4.1",
@@ -90,7 +32,7 @@
             "version": "v2.8.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/chartjs/Chart.js.git",
+                "url": "git@github.com:chartjs/Chart.js.git",
                 "reference": "947d8a7ccfbfc76dd9d384ea75436fa4a7aeefb1"
             },
             "dist": {
@@ -104,29 +46,11 @@
             ]
         },
         {
-            "name": "bower-asset/chartjs",
-            "version": "v2.9.3",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:nnnick/Chart.js.git",
-                "reference": "06f73dc3590084b2c464bf08189c7aee2b6b92d2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nnnick/Chart.js/zipball/06f73dc3590084b2c464bf08189c7aee2b6b92d2",
-                "reference": "06f73dc3590084b2c464bf08189c7aee2b6b92d2"
-            },
-            "type": "bower-asset",
-            "license": [
-                "MIT"
-            ]
-        },
-        {
             "name": "bower-asset/inputmask",
             "version": "3.3.11",
             "source": {
                 "type": "git",
-                "url": "git@github.com:RobinHerbots/Inputmask.git",
+                "url": "https://github.com/RobinHerbots/Inputmask.git",
                 "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
             },
             "dist": {
@@ -436,52 +360,6 @@
                 "html"
             ],
             "time": "2019-10-28T03:44:26+00:00"
-        },
-        {
-            "name": "fedemotta/yii2-cronjob",
-            "version": "v1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fedemotta/yii2-cronjob.git",
-                "reference": "351b893f66e8758933183bfafb653d72a109e053"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fedemotta/yii2-cronjob/zipball/351b893f66e8758933183bfafb653d72a109e053",
-                "reference": "351b893f66e8758933183bfafb653d72a109e053",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "*"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "fedemotta\\cronjob\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Federico Nicolás Motta",
-                    "email": "fedemotta@gmail.com"
-                }
-            ],
-            "description": "Yii2 extension to help in the creation of automated console scripts",
-            "keywords": [
-                "console",
-                "cron",
-                "crontab",
-                "extension",
-                "job",
-                "schedule",
-                "script",
-                "yii2"
-            ],
-            "time": "2015-10-07T20:47:12+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -1012,16 +890,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.27",
+            "version": "2.0.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "34620af4df7d1988d8f0d7e91f6c8a3bf931d8dc"
+                "reference": "233a920cb38636a43b18d428f9a8db1f0a1a08f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/34620af4df7d1988d8f0d7e91f6c8a3bf931d8dc",
-                "reference": "34620af4df7d1988d8f0d7e91f6c8a3bf931d8dc",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/233a920cb38636a43b18d428f9a8db1f0a1a08f4",
+                "reference": "233a920cb38636a43b18d428f9a8db1f0a1a08f4",
                 "shasum": ""
             },
             "require": {
@@ -1029,8 +907,7 @@
             },
             "require-dev": {
                 "phing/phing": "~2.7",
-                "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
-                "sami/sami": "~2.0",
+                "phpunit/phpunit": "^4.8.35|^5.7|^6.0|^9.4",
                 "squizlabs/php_codesniffer": "~2.0"
             },
             "suggest": {
@@ -1114,7 +991,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-04-04T23:17:33+00:00"
+            "time": "2021-04-06T13:56:45+00:00"
         },
         {
             "name": "psr/cache",
@@ -1705,53 +1582,6 @@
             "time": "2020-05-12T16:47:27+00:00"
         },
         {
-            "name": "yii2tech/crontab",
-            "version": "1.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/yii2tech/crontab.git",
-                "reference": "1d1c6bd20dc86b59da4d195bd1c7214366f79ec2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yii2tech/crontab/zipball/1d1c6bd20dc86b59da4d195bd1c7214366f79ec2",
-                "reference": "1d1c6bd20dc86b59da4d195bd1c7214366f79ec2",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "~2.0.14"
-            },
-            "type": "yii2-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "yii2tech\\crontab\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Paul Klimov",
-                    "email": "klimov.paul@gmail.com"
-                }
-            ],
-            "description": "Crontab support extension for the Yii2 framework",
-            "keywords": [
-                "cron",
-                "cronjob",
-                "crontab",
-                "yii2"
-            ],
-            "time": "2018-09-19T10:11:05+00:00"
-        },
-        {
             "name": "yiisoft/yii2",
             "version": "2.0.35",
             "source": {
@@ -2050,6 +1880,64 @@
     ],
     "packages-dev": [
         {
+            "name": "2amigos/yii2-chartjs-widget",
+            "version": "2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2amigos/yii2-chartjs-widget.git",
+                "reference": "b144a4ebd923872a7263c980f8afe2e212378275"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/2amigos/yii2-chartjs-widget/zipball/b144a4ebd923872a7263c980f8afe2e212378275",
+                "reference": "b144a4ebd923872a7263c980f8afe2e212378275",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/chartjs": "~2.6",
+                "yiisoft/yii2": "~2.0.5"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "phpunit/phpunit": "~4.4"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "dosamigos\\chartjs\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "2amigOS! Consulting Group",
+                    "email": "hola@2amigos.us",
+                    "homepage": "http://2amigos.us",
+                    "role": "Developer"
+                }
+            ],
+            "description": "ChartJs widget for Yii2.",
+            "homepage": "http://yiiwheels.com/extension/chartjs-widget",
+            "keywords": [
+                "2amigos",
+                "chartjs",
+                "extension",
+                "widget",
+                "yii",
+                "yii 2",
+                "yii2"
+            ],
+            "time": "2018-05-02T17:59:16+00:00"
+        },
+        {
             "name": "behat/gherkin",
             "version": "v4.6.2",
             "source": {
@@ -2107,6 +1995,24 @@
                 "parser"
             ],
             "time": "2020-03-17T14:03:26+00:00"
+        },
+        {
+            "name": "bower-asset/chartjs",
+            "version": "v2.9.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chartjs/Chart.js.git",
+                "reference": "06f73dc3590084b2c464bf08189c7aee2b6b92d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chartjs/Chart.js/zipball/06f73dc3590084b2c464bf08189c7aee2b6b92d2",
+                "reference": "06f73dc3590084b2c464bf08189c7aee2b6b92d2"
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ]
         },
         {
             "name": "codeception/codeception",
@@ -2677,6 +2583,52 @@
             "time": "2020-05-29T17:27:14+00:00"
         },
         {
+            "name": "fedemotta/yii2-cronjob",
+            "version": "v1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fedemotta/yii2-cronjob.git",
+                "reference": "351b893f66e8758933183bfafb653d72a109e053"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fedemotta/yii2-cronjob/zipball/351b893f66e8758933183bfafb653d72a109e053",
+                "reference": "351b893f66e8758933183bfafb653d72a109e053",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "fedemotta\\cronjob\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Federico Nicolás Motta",
+                    "email": "fedemotta@gmail.com"
+                }
+            ],
+            "description": "Yii2 extension to help in the creation of automated console scripts",
+            "keywords": [
+                "console",
+                "cron",
+                "crontab",
+                "extension",
+                "job",
+                "schedule",
+                "script",
+                "yii2"
+            ],
+            "time": "2015-10-07T20:47:12+00:00"
+        },
+        {
             "name": "fzaninotto/faker",
             "version": "v1.9.1",
             "source": {
@@ -2724,6 +2676,7 @@
                 "faker",
                 "fixtures"
             ],
+            "abandoned": true,
             "time": "2019-12-12T13:22:17+00:00"
         },
         {
@@ -3436,6 +3389,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2019-09-17T06:23:10+00:00"
         },
         {
@@ -5464,12 +5418,12 @@
             "version": "1.8.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "ab2cb0b3b559010b75981b1bdce728da3ee90ad6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/ab2cb0b3b559010b75981b1bdce728da3ee90ad6",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/ab2cb0b3b559010b75981b1bdce728da3ee90ad6",
                 "reference": "ab2cb0b3b559010b75981b1bdce728da3ee90ad6",
                 "shasum": ""
             },
@@ -5506,6 +5460,53 @@
                 "validate"
             ],
             "time": "2020-04-18T12:12:48+00:00"
+        },
+        {
+            "name": "yii2tech/crontab",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yii2tech/crontab.git",
+                "reference": "1d1c6bd20dc86b59da4d195bd1c7214366f79ec2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yii2tech/crontab/zipball/1d1c6bd20dc86b59da4d195bd1c7214366f79ec2",
+                "reference": "1d1c6bd20dc86b59da4d195bd1c7214366f79ec2",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.14"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii2tech\\crontab\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com"
+                }
+            ],
+            "description": "Crontab support extension for the Yii2 framework",
+            "keywords": [
+                "cron",
+                "cronjob",
+                "crontab",
+                "yii2"
+            ],
+            "time": "2018-09-19T10:11:05+00:00"
         },
         {
             "name": "yiisoft/yii2-debug",
